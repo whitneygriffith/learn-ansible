@@ -1,0 +1,15 @@
+localhost ansible_host=localhost ansible_connection=local ansible_python_interpreter=/Users/whitneygriffith/Desktop/learn-ansible/venv/bin/python
+
+[groupA]
+host1
+host2
+host3
+
+[groupB]
+host4
+host5
+host6
+
+[all:vars]
+ansible_connection=local
+

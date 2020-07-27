@@ -1,0 +1,7 @@
+- name: Challenge me
+  hosts: groupA
+  tasks:
+    - name: Install Ansible 
+      pip: 
+        name: ansible
+        virtualenv: ~/challenge1
